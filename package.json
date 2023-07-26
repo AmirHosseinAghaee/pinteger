@@ -1,0 +1,42 @@
+{
+  "name": "pinteger",
+  "version": "1.0.3",
+  "description": "convert persian or arabic number to english number ",
+  "main": "dist/pinteger.umd.js",
+  "module": "dist/pinteger.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/pinteger.es.js",
+      "require": "./dist/pinteger.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.0 || ^3.0.0"
+  },
+  "author": "amirhosseinaghaee",
+  "license": "ISC",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.7"
+  },
+  "repository" :{
+    "type" :"git" , 
+    "url" :"https://github.com/AmirHosseinAghaee/pinteger.git"
+
+  },
+ "keywords": [
+    "persian number",
+    "persian",
+    "arabic",
+    "farsi",
+    "to persian",
+    "to english",
+    "number",
+    "toEnglish",
+    "toPersian"
+  ]
+}
